@@ -1,9 +1,9 @@
 {
     "baseURL": "",
     "useSSLAzure": false,
-    "useSSL": false,
-    "SSLkey": "cert/server.key",
-    "SSLcert": "cert/server.crt",
+    "useSSL": true,
+    "SSLkey": "../node_modules/browser-sync/lib/server/certs/server.key",
+    "SSLcert": "../node_modules/browser-sync/lib/server/certs/server.crt",
     "activateAuth": false,
     "username": "",
     "password": "",
